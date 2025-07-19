@@ -120,7 +120,3 @@ if st.button("📄 Download Your Report"):
     href = f'<a href="data:application/pdf;base64,{b64}" download="{name}_WealthyWays_Report.pdf">Download Report</a>'
     st.markdown(href, unsafe_allow_html=True)
 
-# Model evaluation snippet (run in Colab during training)
-# from sklearn.metrics import mean_absolute_error
-# y_pred = model.predict(X_test)
-# print("MAE:", mean_absolute_error(y_test, y_pred))
